@@ -1,0 +1,244 @@
+2024-05-19 01:11:03 WARN main - Load default HA Service: DefaultHAService
+2024-05-19 01:11:03 INFO main - /home/app/data/rocketmq/store/commitlog mkdir OK
+2024-05-19 01:11:03 INFO main - /home/app/data/rocketmq/store/consumequeue mkdir OK
+2024-05-19 01:11:03 INFO main - /home/app/data/rocketmq/store/config mkdir OK
+2024-05-19 01:11:03 INFO main - timer checkpoint file not exists, /home/app/data/rocketmq/store/config/timercheck
+2024-05-19 01:11:03 INFO main - last shutdown normally, store path root dir: /home/app/data/rocketmq/store
+2024-05-19 01:11:03 INFO main - load commit log OK
+2024-05-19 01:11:03 INFO main - load SimpleCQ all over, OK
+2024-05-19 01:11:03 INFO main - load BatchCQ all over, OK
+2024-05-19 01:11:03 INFO main - compactionStore /home/app/data/rocketmq/store/compaction/compactionLog:/home/app/data/rocketmq/store/compaction/compactionCq load completed.
+2024-05-19 01:11:03 INFO main - store checkpoint file not exists, /home/app/data/rocketmq/store/checkpoint
+2024-05-19 01:11:03 INFO main - message store recover mode: normal
+2024-05-19 01:11:03 WARN main - The commitlog files are deleted, and delete the consume queue files
+2024-05-19 01:11:03 INFO main - message store recover total cost: 0 ms, recoverConsumeQueue: 0 ms, recoverCommitLog: 0 ms, recoverOffsetTable: 0 ms
+2024-05-19 01:11:03 INFO main - message store recover end, and the max phy offset = 0
+2024-05-19 01:11:03 INFO main - load over, and the max phy offset = 0
+2024-05-19 01:11:03 INFO main - Begin to recover timerlog offset:0 check:true
+2024-05-19 01:11:03 INFO main - Timer recover ok currReadTimerMs:1715447523000 currQueueOffset:0 checkQueueOffset:0 processOffset:0
+2024-05-19 01:11:03 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2024-05-19 01:11:03 INFO ReputMessageService - ReputMessageService service started
+2024-05-19 01:11:03 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2024-05-19 01:11:03 INFO main - start commitLog successfully. storeRoot: /home/app/data/rocketmq/store
+2024-05-19 01:11:03 INFO FlushRealTimeService - FlushRealTimeService service started
+2024-05-19 01:11:03 INFO StoreStatsService - StoreStatsService service started
+2024-05-19 01:11:03 INFO DefaultAcceptSocketService - DefaultAcceptSocketService service started
+2024-05-19 01:11:03 INFO GroupTransferService - GroupTransferService service started
+2024-05-19 01:11:03 INFO HAConnectionStateNotificationService - HAConnectionStateNotificationService service started
+2024-05-19 01:11:03 INFO main - /home/app/data/rocketmq/store/abort create OK
+2024-05-19 01:11:03 INFO org.apache.rocketmq.store.util.PerfCounter$Ticks - org.apache.rocketmq.store.util.PerfCounter$Ticks get started
+2024-05-19 01:11:03 INFO TimerEnqueueGetService - TimerEnqueueGetService service start
+2024-05-19 01:11:03 INFO TimerEnqueuePutService - TimerEnqueuePutService service start
+2024-05-19 01:11:03 INFO TimerDequeueWarmService - TimerDequeueWarmService service start
+2024-05-19 01:11:03 INFO TimerDequeueGetService - TimerDequeueGetService service start
+2024-05-19 01:11:03 INFO TimerDequeueGetMessageService - TimerDequeueGetMessageService service start
+2024-05-19 01:11:03 INFO TimerDequeueGetMessageService - TimerDequeueGetMessageService service start
+2024-05-19 01:11:03 INFO TimerDequeueGetMessageService - TimerDequeueGetMessageService service start
+2024-05-19 01:11:03 INFO TimerDequeuePutMessageService - TimerDequeuePutMessageService service start
+2024-05-19 01:11:03 INFO TimerDequeuePutMessageService - TimerDequeuePutMessageService service start
+2024-05-19 01:11:03 INFO TimerDequeuePutMessageService - TimerDequeuePutMessageService service start
+2024-05-19 01:11:03 INFO TimerFlushService - TimerFlushService service start
+2024-05-19 01:11:03 INFO main - Timer start ok currReadTimerMs:[2024-05-12 01:12:03.0] queueOffset:[0]
+2024-05-19 01:11:14 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:11:13] currRead:[05-19 01:11:13] currWrite:[05-19 01:11:14] readBehind:1 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:11:14 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:11:14.421] num:21 cost:10051 tps:2.0993 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:21 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:11:24 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:11:24.449] num:20 cost:10023 tps:2.0054 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:11:24 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:11:24] currRead:[05-19 01:11:24] currWrite:[05-19 01:11:24] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:11:34 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:11:34.474] num:20 cost:10024 tps:2.0052 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:11:35 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:11:35] currRead:[05-19 01:11:35] currWrite:[05-19 01:11:35] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:11:44 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:11:44.497] num:20 cost:10022 tps:2.0056 min:0 max:1 tp50:0 tp80:0 tp90:0 tp99:1 tp999:1 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:11:46 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:11:45] currRead:[05-19 01:11:45] currWrite:[05-19 01:11:45] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:11:54 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:11:54.52] num:20 cost:10022 tps:2.0056 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:11:56 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:11:56] currRead:[05-19 01:11:56] currWrite:[05-19 01:11:56] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:00 INFO AdminBrokerThread_1 - findPutMessageEntireTimePX 0.99=0.00ms cost 1ms
+2024-05-19 01:12:00 INFO AdminBrokerThread_1 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:12:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:03 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transferred_tps 
+2024-05-19 01:12:03 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:12:03 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 1ms
+2024-05-19 01:12:03 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:12:04 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:04.544] num:20 cost:10024 tps:2.0052 min:0 max:1 tp50:0 tp80:0 tp90:0 tp99:1 tp999:1 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:12:07 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:12:07] currRead:[05-19 01:12:07] currWrite:[05-19 01:12:07] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:14 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:14.568] num:20 cost:10023 tps:2.0054 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:12:18 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:12:18] currRead:[05-19 01:12:18] currWrite:[05-19 01:12:18] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:23 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:24 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:24.602] num:20 cost:10034 tps:2.0032 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:12:28 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:12:28] currRead:[05-19 01:12:28] currWrite:[05-19 01:12:28] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:33 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:34 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:34.623] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:12:39 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:12:39] currRead:[05-19 01:12:39] currWrite:[05-19 01:12:39] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:43 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:44 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:44.646] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:12:50 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:12:50] currRead:[05-19 01:12:50] currWrite:[05-19 01:12:50] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:12:53 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:12:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:12:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:12:54 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:12:54.672] num:20 cost:10024 tps:2.0052 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:00 INFO AdminBrokerThread_4 - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:13:00 INFO AdminBrokerThread_4 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:13:00 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:00] currRead:[05-19 01:13:00] currWrite:[05-19 01:13:00] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:04 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 38.352059925093634 get_transferred_tps 0.0
+2024-05-19 01:13:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:13:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:13:04 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:13:04 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:04.695] num:20 cost:10022 tps:2.0056 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:11 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:11] currRead:[05-19 01:13:11] currWrite:[05-19 01:13:11] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:14 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:14.725] num:20 cost:10029 tps:2.0042 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:22 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:22] currRead:[05-19 01:13:22] currWrite:[05-19 01:13:22] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:23 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:24 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:24.747] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:33 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:32] currRead:[05-19 01:13:32] currWrite:[05-19 01:13:33] readBehind:1 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:33 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:34 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:34.769] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:43 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:43] currRead:[05-19 01:13:43] currWrite:[05-19 01:13:43] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:43 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:44 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:44.789] num:20 cost:10019 tps:2.0062 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:13:53 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:13:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:13:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:13:54 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:13:54] currRead:[05-19 01:13:54] currWrite:[05-19 01:13:54] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:13:54 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:13:54.81] num:20 cost:10020 tps:2.0060 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:00 INFO AdminBrokerThread_7 - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:14:00 INFO AdminBrokerThread_7 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:14:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:04 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 42.019045082240126 get_transferred_tps 0.0
+2024-05-19 01:14:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:14:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:14:04 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:14:04 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:04.833] num:20 cost:10022 tps:2.0056 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:05 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:05] currRead:[05-19 01:14:05] currWrite:[05-19 01:14:05] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:14:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:14 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:14.855] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:15 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:15] currRead:[05-19 01:14:15] currWrite:[05-19 01:14:15] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:14:23 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:24 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:24.877] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:26 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:26] currRead:[05-19 01:14:26] currWrite:[05-19 01:14:26] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:14:33 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:34 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:34.897] num:20 cost:10019 tps:2.0062 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:37 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:37] currRead:[05-19 01:14:37] currWrite:[05-19 01:14:37] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:14:43 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:44 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:44.919] num:20 cost:10022 tps:2.0056 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:48 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:48] currRead:[05-19 01:14:48] currWrite:[05-19 01:14:48] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:14:53 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:14:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:14:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:14:54 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:14:54.938] num:20 cost:10019 tps:2.0062 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:14:58 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:14:58] currRead:[05-19 01:14:58] currWrite:[05-19 01:14:58] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:00 INFO AdminBrokerThread_10 - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:15:00 INFO AdminBrokerThread_10 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:15:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:04 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 40.017311981889 get_transferred_tps 0.0
+2024-05-19 01:15:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:15:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:15:04 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:15:04 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:04.961] num:20 cost:10023 tps:2.0054 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:15:09 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:15:09] currRead:[05-19 01:15:09] currWrite:[05-19 01:15:09] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:14 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:14.983] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:15:19 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:15:19] currRead:[05-19 01:15:19] currWrite:[05-19 01:15:19] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:23 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:25 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:25.006] num:20 cost:10022 tps:2.0056 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:15:30 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:15:30] currRead:[05-19 01:15:30] currWrite:[05-19 01:15:30] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:33 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:35 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:35.106] num:20 cost:10100 tps:1.9901 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:15:41 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:15:41] currRead:[05-19 01:15:41] currWrite:[05-19 01:15:41] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:43 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:45 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:45.131] num:20 cost:10024 tps:2.0052 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:15:52 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:15:52] currRead:[05-19 01:15:52] currWrite:[05-19 01:15:52] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:15:53 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:15:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:15:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:15:55 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:15:55.152] num:20 cost:10020 tps:2.0060 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:00 INFO AdminBrokerThread_13 - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:16:00 INFO AdminBrokerThread_13 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:16:02 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:02] currRead:[05-19 01:16:02] currWrite:[05-19 01:16:02] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:16:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:04 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 39.30762707637053 get_transferred_tps 0.0
+2024-05-19 01:16:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:16:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:16:04 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:16:05 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:05.173] num:20 cost:10020 tps:2.0060 min:0 max:1 tp50:0 tp80:0 tp90:0 tp99:1 tp999:1 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:13 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:13] currRead:[05-19 01:16:13] currWrite:[05-19 01:16:13] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:16:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:15 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:15.197] num:20 cost:10024 tps:2.0052 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:23 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:24 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:24] currRead:[05-19 01:16:24] currWrite:[05-19 01:16:24] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:16:25 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:25.219] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:33 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:34 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:34] currRead:[05-19 01:16:34] currWrite:[05-19 01:16:34] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:16:35 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:35.241] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:43 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:45 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:45.262] num:20 cost:10019 tps:2.0062 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:45 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:45] currRead:[05-19 01:16:45] currWrite:[05-19 01:16:45] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:16:53 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:16:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:16:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:16:55 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:16:55.289] num:20 cost:10026 tps:2.0048 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:16:56 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:16:56] currRead:[05-19 01:16:56] currWrite:[05-19 01:16:56] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:17:00 INFO AdminBrokerThread_16 - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:17:00 INFO AdminBrokerThread_16 - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:17:03 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:17:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:17:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:17:04 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 42.312365797226896 get_transferred_tps 0.0
+2024-05-19 01:17:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.99=0.00ms cost 0ms
+2024-05-19 01:17:04 INFO StoreStatsService - findPutMessageEntireTimePX 0.999=0.00ms cost 0ms
+2024-05-19 01:17:04 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2024-05-19 01:17:05 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:17:05.306] num:20 cost:10016 tps:2.0068 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0
+2024-05-19 01:17:06 INFO TimerFlushService - [ASYNC_MASTER]Timer progress-check commitRead:[05-19 01:17:06] currRead:[05-19 01:17:06] currWrite:[05-19 01:17:06] readBehind:0 currReadOffset:0 offsetBehind:0 behindMaster:0 enqPutQueue:0 deqGetQueue:0 deqPutQueue:0 allCongestNum:0 enqExpiredStoreTime:01-01 08:00:00
+2024-05-19 01:17:13 INFO StoreScheduledThread1 - commitLog disk maybe full soon, so reclaim space, 0.84
+2024-05-19 01:17:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. isTimeUp: false isUsageExceedsThreshold: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false deleteFileBatchMax: 10
+2024-05-19 01:17:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2024-05-19 01:17:15 INFO FlushRealTimeService - PERF_COUNTER_FLUSH_DATA_TIME_MS[2024-05-19 01:17:15.328] num:20 cost:10021 tps:2.0058 min:0 max:99999999 tp50:0 tp80:0 tp90:0 tp99:0 tp999:0 0_1:20 2_5:0 6_10:0 11_50:0 51_100:0 101_500:0 501_999:0 1000_:0

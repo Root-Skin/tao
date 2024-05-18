@@ -1,0 +1,118 @@
+2024-05-19 01:10:59 INFO main - Server is running in TLS permissive mode
+2024-05-19 01:10:59 INFO main - Tls config file doesn't exist, skip it
+2024-05-19 01:10:59 INFO main - Log the final used tls related configuration
+2024-05-19 01:10:59 INFO main - tls.test.mode.enable = true
+2024-05-19 01:10:59 INFO main - tls.server.need.client.auth = none
+2024-05-19 01:10:59 INFO main - tls.server.keyPath = null
+2024-05-19 01:10:59 INFO main - tls.server.keyPassword = null
+2024-05-19 01:10:59 INFO main - tls.server.certPath = null
+2024-05-19 01:10:59 INFO main - tls.server.authClient = false
+2024-05-19 01:10:59 INFO main - tls.server.trustCertPath = null
+2024-05-19 01:10:59 INFO main - tls.client.keyPath = null
+2024-05-19 01:10:59 INFO main - tls.client.keyPassword = null
+2024-05-19 01:10:59 INFO main - tls.client.certPath = null
+2024-05-19 01:10:59 INFO main - tls.client.authServer = false
+2024-05-19 01:10:59 INFO main - tls.client.trustCertPath = null
+2024-05-19 01:10:59 INFO main - Using OpenSSL provider
+2024-05-19 01:11:00 INFO main - SSLContext created for server
+2024-05-19 01:11:00 INFO main - RemotingServer started, listening 0.0.0.0:9876
+2024-05-19 01:11:00 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-05-19 01:11:00 INFO main - name server address updated. NEW : [172.19.0.2:9876] , OLD: null
+2024-05-19 01:11:00 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[172.19.0.2:9876] asynchronously
+2024-05-19 01:11:00 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.2:9876
+2024-05-19 01:11:00 INFO NettyClientScan_thread_1 - createChannel: connect remote host[172.19.0.2:9876] success, AbstractBootstrap$PendingRegistrationPromise@30ed3ba9(success)
+2024-05-19 01:11:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.2:43624
+2024-05-19 01:11:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.2:43624]
+2024-05-19 01:11:03 INFO main - Server is running in TLS permissive mode
+2024-05-19 01:11:03 INFO main - Tls config file doesn't exist, skip it
+2024-05-19 01:11:03 INFO main - Log the final used tls related configuration
+2024-05-19 01:11:03 INFO main - tls.test.mode.enable = true
+2024-05-19 01:11:03 INFO main - tls.server.need.client.auth = none
+2024-05-19 01:11:03 INFO main - tls.server.keyPath = null
+2024-05-19 01:11:03 INFO main - tls.server.keyPassword = null
+2024-05-19 01:11:03 INFO main - tls.server.certPath = null
+2024-05-19 01:11:03 INFO main - tls.server.authClient = false
+2024-05-19 01:11:03 INFO main - tls.server.trustCertPath = null
+2024-05-19 01:11:03 INFO main - tls.client.keyPath = null
+2024-05-19 01:11:03 INFO main - tls.client.keyPassword = null
+2024-05-19 01:11:03 INFO main - tls.client.certPath = null
+2024-05-19 01:11:03 INFO main - tls.client.authServer = false
+2024-05-19 01:11:03 INFO main - tls.client.trustCertPath = null
+2024-05-19 01:11:03 INFO main - Using OpenSSL provider
+2024-05-19 01:11:03 INFO main - SSLContext created for server
+2024-05-19 01:11:03 INFO main - Server is running in TLS permissive mode
+2024-05-19 01:11:03 INFO main - Tls config file doesn't exist, skip it
+2024-05-19 01:11:03 INFO main - Log the final used tls related configuration
+2024-05-19 01:11:03 INFO main - tls.test.mode.enable = true
+2024-05-19 01:11:03 INFO main - tls.server.need.client.auth = none
+2024-05-19 01:11:03 INFO main - tls.server.keyPath = null
+2024-05-19 01:11:03 INFO main - tls.server.keyPassword = null
+2024-05-19 01:11:03 INFO main - tls.server.certPath = null
+2024-05-19 01:11:03 INFO main - tls.server.authClient = false
+2024-05-19 01:11:03 INFO main - tls.server.trustCertPath = null
+2024-05-19 01:11:03 INFO main - tls.client.keyPath = null
+2024-05-19 01:11:03 INFO main - tls.client.keyPassword = null
+2024-05-19 01:11:03 INFO main - tls.client.certPath = null
+2024-05-19 01:11:03 INFO main - tls.client.authServer = false
+2024-05-19 01:11:03 INFO main - tls.client.trustCertPath = null
+2024-05-19 01:11:03 INFO main - Using OpenSSL provider
+2024-05-19 01:11:03 INFO main - SSLContext created for server
+2024-05-19 01:11:03 INFO main - name server address updated. NEW : [localhost:9876] , OLD: null
+2024-05-19 01:11:03 INFO NettyClientScan_thread_1 - createChannel: begin to connect remote host[localhost:9876] asynchronously
+2024-05-19 01:11:03 INFO main - RemotingServer started, listening 0.0.0.0:10911
+2024-05-19 01:11:03 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-05-19 01:11:03 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2024-05-19 01:11:03 INFO main - RemotingServer started, listening 0.0.0.0:10909
+2024-05-19 01:11:03 INFO NettyEventExecutor - NettyEventExecutor service started
+2024-05-19 01:11:03 INFO NettyClientScan_thread_1 - createChannel: connect remote host[localhost:9876] success, AbstractBootstrap$PendingRegistrationPromise@6167c201(success)
+2024-05-19 01:11:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:49078
+2024-05-19 01:11:03 INFO NettyServerCodecThread_2 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:49078]
+2024-05-19 01:11:13 INFO BrokerControllerScheduledThread1 - new name server is chosen. OLD: null , NEW: localhost:9876. namesrvIndex = 462
+2024-05-19 01:11:35 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.2:40384
+2024-05-19 01:11:35 INFO NettyServerCodecThread_3 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.2:40384]
+2024-05-19 01:12:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:43088
+2024-05-19 01:12:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:43088]
+2024-05-19 01:12:01 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 127.0.0.1:47002
+2024-05-19 01:12:01 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[127.0.0.1:47002]
+2024-05-19 01:13:00 WARN NettyServerCodecThread_1 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.2:43624]
+2024-05-19 01:13:00 WARN NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.2:9876]
+2024-05-19 01:13:00 INFO NettyClientWorkerThread_1 - closeChannel: the channel[172.19.0.2:9876] was removed from channel table
+2024-05-19 01:13:00 INFO NettyClientWorkerThread_1 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.2:9876
+2024-05-19 01:13:00 INFO NettyClientWorkerThread_1 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-05-19 01:13:00 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.2:9876] result: true
+2024-05-19 01:13:00 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.2:43624] result: true
+2024-05-19 01:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.2:43624]
+2024-05-19 01:13:00 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.2:43624]
+2024-05-19 01:13:03 INFO NettyClientScan_thread_2 - createChannel: begin to connect remote host[172.19.0.2:9876] asynchronously
+2024-05-19 01:13:03 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.2:9876
+2024-05-19 01:13:03 INFO NettyClientScan_thread_2 - createChannel: connect remote host[172.19.0.2:9876] success, AbstractBootstrap$PendingRegistrationPromise@20b1778c(success)
+2024-05-19 01:13:03 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.2:40476
+2024-05-19 01:13:03 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.2:40476]
+2024-05-19 01:15:03 WARN NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.2:9876]
+2024-05-19 01:15:03 INFO NettyClientWorkerThread_2 - closeChannel: the channel[172.19.0.2:9876] was removed from channel table
+2024-05-19 01:15:03 INFO NettyClientWorkerThread_2 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.2:9876
+2024-05-19 01:15:03 INFO NettyClientWorkerThread_2 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-05-19 01:15:03 WARN NettyServerCodecThread_4 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.2:40476]
+2024-05-19 01:15:03 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.2:9876] result: true
+2024-05-19 01:15:03 INFO NettyServerNIOSelector_3_1 - closeChannel: close the connection to remote address[172.19.0.2:40476] result: true
+2024-05-19 01:15:03 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.2:40476]
+2024-05-19 01:15:03 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.2:40476]
+2024-05-19 01:15:06 INFO NettyClientScan_thread_3 - createChannel: begin to connect remote host[172.19.0.2:9876] asynchronously
+2024-05-19 01:15:06 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.2:9876
+2024-05-19 01:15:06 INFO NettyClientScan_thread_3 - createChannel: connect remote host[172.19.0.2:9876] success, AbstractBootstrap$PendingRegistrationPromise@4bb0bb92(success)
+2024-05-19 01:15:06 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.2:42298
+2024-05-19 01:15:06 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.2:42298]
+2024-05-19 01:17:06 WARN NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: IDLE exception [172.19.0.2:9876]
+2024-05-19 01:17:06 INFO NettyClientWorkerThread_3 - closeChannel: the channel[172.19.0.2:9876] was removed from channel table
+2024-05-19 01:17:06 INFO NettyClientWorkerThread_3 - NETTY CLIENT PIPELINE: CLOSE 172.19.0.2:9876
+2024-05-19 01:17:06 INFO NettyClientWorkerThread_3 - eventCloseChannel: the channel[null] has been removed from the channel table before
+2024-05-19 01:17:06 WARN NettyServerCodecThread_5 - NETTY SERVER PIPELINE: IDLE exception [172.19.0.2:42298]
+2024-05-19 01:17:06 INFO NettyServerNIOSelector_3_2 - closeChannel: close the connection to remote address[172.19.0.2:42298] result: true
+2024-05-19 01:17:06 INFO NettyClientSelector_1 - closeChannel: close the connection to remote address[172.19.0.2:9876] result: true
+2024-05-19 01:17:06 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[172.19.0.2:42298]
+2024-05-19 01:17:06 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[172.19.0.2:42298]
+2024-05-19 01:17:09 INFO NettyClientScan_thread_4 - createChannel: begin to connect remote host[172.19.0.2:9876] asynchronously
+2024-05-19 01:17:09 INFO NettyClientWorkerThread_4 - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 172.19.0.2:9876
+2024-05-19 01:17:09 INFO NettyClientScan_thread_4 - createChannel: connect remote host[172.19.0.2:9876] success, AbstractBootstrap$PendingRegistrationPromise@237a1c1(success)
+2024-05-19 01:17:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelRegistered 172.19.0.2:47460
+2024-05-19 01:17:09 INFO NettyServerCodecThread_6 - NETTY SERVER PIPELINE: channelActive, the channel[172.19.0.2:47460]

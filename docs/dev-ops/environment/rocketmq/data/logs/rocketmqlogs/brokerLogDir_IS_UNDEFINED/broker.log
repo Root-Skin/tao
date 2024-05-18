@@ -1,0 +1,319 @@
+2024-05-19 01:11:00 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-05-19 01:11:00 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-05-19 01:11:00 INFO main - Try to start service thread:org.apache.rocketmq.namesrv.routeinfo.BatchUnregistrationService started:false lastThread:null
+2024-05-19 01:11:00 INFO FileWatchService - FileWatchService service started
+2024-05-19 01:11:02 INFO main - brokerConfigPath=
+2024-05-19 01:11:02 INFO main - rocketmqHome=/home/app/rocketmq
+2024-05-19 01:11:02 INFO main - namesrvAddr=localhost:9876
+2024-05-19 01:11:02 INFO main - listenPort=6888
+2024-05-19 01:11:02 INFO main - brokerIP1=127.0.0.1
+2024-05-19 01:11:02 INFO main - brokerIP2=172.19.0.2
+2024-05-19 01:11:02 INFO main - recoverConcurrently=false
+2024-05-19 01:11:02 INFO main - brokerPermission=6
+2024-05-19 01:11:02 INFO main - defaultTopicQueueNums=8
+2024-05-19 01:11:02 INFO main - autoCreateTopicEnable=true
+2024-05-19 01:11:02 INFO main - clusterTopicEnable=true
+2024-05-19 01:11:02 INFO main - brokerTopicEnable=true
+2024-05-19 01:11:02 INFO main - autoCreateSubscriptionGroup=true
+2024-05-19 01:11:02 INFO main - messageStorePlugIn=
+2024-05-19 01:11:02 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2024-05-19 01:11:02 INFO main - traceTopicEnable=false
+2024-05-19 01:11:02 INFO main - sendMessageThreadPoolNums=4
+2024-05-19 01:11:02 INFO main - putMessageFutureThreadPoolNums=4
+2024-05-19 01:11:02 INFO main - pullMessageThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - litePullMessageThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - ackMessageThreadPoolNums=3
+2024-05-19 01:11:02 INFO main - processReplyMessageThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - queryMessageThreadPoolNums=16
+2024-05-19 01:11:02 INFO main - adminBrokerThreadPoolNums=16
+2024-05-19 01:11:02 INFO main - clientManageThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - consumerManageThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - loadBalanceProcessorThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - heartbeatThreadPoolNums=8
+2024-05-19 01:11:02 INFO main - recoverThreadPoolNums=32
+2024-05-19 01:11:02 INFO main - endTransactionThreadPoolNums=24
+2024-05-19 01:11:02 INFO main - flushConsumerOffsetInterval=5000
+2024-05-19 01:11:02 INFO main - flushConsumerOffsetHistoryInterval=60000
+2024-05-19 01:11:02 INFO main - rejectTransactionMessage=false
+2024-05-19 01:11:02 INFO main - fetchNameSrvAddrByDnsLookup=false
+2024-05-19 01:11:02 INFO main - fetchNamesrvAddrByAddressServer=false
+2024-05-19 01:11:02 INFO main - sendThreadPoolQueueCapacity=10000
+2024-05-19 01:11:02 INFO main - putThreadPoolQueueCapacity=10000
+2024-05-19 01:11:02 INFO main - pullThreadPoolQueueCapacity=100000
+2024-05-19 01:11:02 INFO main - litePullThreadPoolQueueCapacity=100000
+2024-05-19 01:11:02 INFO main - ackThreadPoolQueueCapacity=100000
+2024-05-19 01:11:02 INFO main - replyThreadPoolQueueCapacity=10000
+2024-05-19 01:11:02 INFO main - queryThreadPoolQueueCapacity=20000
+2024-05-19 01:11:02 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2024-05-19 01:11:02 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2024-05-19 01:11:02 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2024-05-19 01:11:02 INFO main - endTransactionPoolQueueCapacity=100000
+2024-05-19 01:11:02 INFO main - adminBrokerThreadPoolQueueCapacity=10000
+2024-05-19 01:11:02 INFO main - loadBalanceThreadPoolQueueCapacity=100000
+2024-05-19 01:11:02 INFO main - filterServerNums=0
+2024-05-19 01:11:02 INFO main - longPollingEnable=true
+2024-05-19 01:11:02 INFO main - shortPollingTimeMills=1000
+2024-05-19 01:11:02 INFO main - notifyConsumerIdsChangedEnable=true
+2024-05-19 01:11:02 INFO main - highSpeedMode=false
+2024-05-19 01:11:02 INFO main - commercialBaseCount=1
+2024-05-19 01:11:02 INFO main - commercialSizePerMsg=4096
+2024-05-19 01:11:02 INFO main - accountStatsEnable=true
+2024-05-19 01:11:02 INFO main - accountStatsPrintZeroValues=true
+2024-05-19 01:11:02 INFO main - transferMsgByHeap=true
+2024-05-19 01:11:02 INFO main - maxDelayTime=40
+2024-05-19 01:11:02 INFO main - regionId=DefaultRegion
+2024-05-19 01:11:02 INFO main - registerBrokerTimeoutMills=24000
+2024-05-19 01:11:02 INFO main - sendHeartbeatTimeoutMillis=1000
+2024-05-19 01:11:02 INFO main - slaveReadEnable=false
+2024-05-19 01:11:02 INFO main - disableConsumeIfConsumerReadSlowly=false
+2024-05-19 01:11:02 INFO main - consumerFallbehindThreshold=17179869184
+2024-05-19 01:11:02 INFO main - brokerFastFailureEnable=true
+2024-05-19 01:11:02 INFO main - waitTimeMillsInSendQueue=200
+2024-05-19 01:11:02 INFO main - waitTimeMillsInPullQueue=5000
+2024-05-19 01:11:02 INFO main - waitTimeMillsInLitePullQueue=5000
+2024-05-19 01:11:02 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2024-05-19 01:11:02 INFO main - waitTimeMillsInTransactionQueue=3000
+2024-05-19 01:11:02 INFO main - waitTimeMillsInAckQueue=3000
+2024-05-19 01:11:02 INFO main - startAcceptSendRequestTimeStamp=0
+2024-05-19 01:11:02 INFO main - traceOn=true
+2024-05-19 01:11:02 INFO main - enableCalcFilterBitMap=false
+2024-05-19 01:11:02 INFO main - rejectPullConsumerEnable=false
+2024-05-19 01:11:02 INFO main - expectConsumerNumUseFilter=32
+2024-05-19 01:11:02 INFO main - maxErrorRateOfBloomFilter=20
+2024-05-19 01:11:02 INFO main - filterDataCleanTimeSpan=86400000
+2024-05-19 01:11:02 INFO main - filterSupportRetry=false
+2024-05-19 01:11:02 INFO main - enablePropertyFilter=false
+2024-05-19 01:11:02 INFO main - compressedRegister=false
+2024-05-19 01:11:02 INFO main - forceRegister=true
+2024-05-19 01:11:02 INFO main - registerNameServerPeriod=30000
+2024-05-19 01:11:02 INFO main - brokerHeartbeatInterval=1000
+2024-05-19 01:11:02 INFO main - brokerNotActiveTimeoutMillis=10000
+2024-05-19 01:11:02 INFO main - enableNetWorkFlowControl=false
+2024-05-19 01:11:02 INFO main - enableBroadcastOffsetStore=true
+2024-05-19 01:11:02 INFO main - broadcastOffsetExpireSecond=120
+2024-05-19 01:11:02 INFO main - broadcastOffsetExpireMaxSecond=300
+2024-05-19 01:11:02 INFO main - popPollingSize=1024
+2024-05-19 01:11:02 INFO main - popPollingMapSize=100000
+2024-05-19 01:11:02 INFO main - maxPopPollingSize=100000
+2024-05-19 01:11:02 INFO main - reviveQueueNum=8
+2024-05-19 01:11:02 INFO main - reviveInterval=1000
+2024-05-19 01:11:02 INFO main - reviveMaxSlow=3
+2024-05-19 01:11:02 INFO main - reviveScanTime=10000
+2024-05-19 01:11:02 INFO main - enableSkipLongAwaitingAck=false
+2024-05-19 01:11:02 INFO main - reviveAckWaitMs=180000
+2024-05-19 01:11:02 INFO main - enablePopLog=false
+2024-05-19 01:11:02 INFO main - enablePopBufferMerge=false
+2024-05-19 01:11:02 INFO main - popCkStayBufferTime=10000
+2024-05-19 01:11:02 INFO main - popCkStayBufferTimeOut=3000
+2024-05-19 01:11:02 INFO main - popCkMaxBufferSize=200000
+2024-05-19 01:11:02 INFO main - popCkOffsetMaxQueueSize=20000
+2024-05-19 01:11:02 INFO main - enableNotifyAfterPopOrderLockRelease=true
+2024-05-19 01:11:02 INFO main - realTimeNotifyConsumerChange=true
+2024-05-19 01:11:02 INFO main - litePullMessageEnable=true
+2024-05-19 01:11:02 INFO main - syncBrokerMemberGroupPeriod=1000
+2024-05-19 01:11:02 INFO main - loadBalancePollNameServerInterval=30000
+2024-05-19 01:11:02 INFO main - cleanOfflineBrokerInterval=30000
+2024-05-19 01:11:02 INFO main - serverLoadBalancerEnable=true
+2024-05-19 01:11:02 INFO main - defaultMessageRequestMode=PULL
+2024-05-19 01:11:02 INFO main - defaultPopShareQueueNum=-1
+2024-05-19 01:11:02 INFO main - transactionTimeOut=6000
+2024-05-19 01:11:02 INFO main - transactionCheckMax=15
+2024-05-19 01:11:02 INFO main - transactionCheckInterval=60000
+2024-05-19 01:11:02 INFO main - transactionOpMsgMaxSize=4096
+2024-05-19 01:11:02 INFO main - transactionOpBatchInterval=3000
+2024-05-19 01:11:02 INFO main - aclEnable=false
+2024-05-19 01:11:02 INFO main - storeReplyMessageEnable=true
+2024-05-19 01:11:02 INFO main - enableDetailStat=true
+2024-05-19 01:11:02 INFO main - autoDeleteUnusedStats=false
+2024-05-19 01:11:02 INFO main - isolateLogEnable=false
+2024-05-19 01:11:02 INFO main - forwardTimeout=3000
+2024-05-19 01:11:02 INFO main - enableSlaveActingMaster=false
+2024-05-19 01:11:02 INFO main - enableRemoteEscape=false
+2024-05-19 01:11:02 INFO main - skipPreOnline=false
+2024-05-19 01:11:02 INFO main - asyncSendEnable=true
+2024-05-19 01:11:02 INFO main - useServerSideResetOffset=false
+2024-05-19 01:11:02 INFO main - consumerOffsetUpdateVersionStep=500
+2024-05-19 01:11:02 INFO main - delayOffsetUpdateVersionStep=200
+2024-05-19 01:11:02 INFO main - lockInStrictMode=false
+2024-05-19 01:11:02 INFO main - compatibleWithOldNameSrv=true
+2024-05-19 01:11:02 INFO main - enableControllerMode=false
+2024-05-19 01:11:02 INFO main - controllerAddr=
+2024-05-19 01:11:02 INFO main - fetchControllerAddrByDnsLookup=false
+2024-05-19 01:11:02 INFO main - syncBrokerMetadataPeriod=5000
+2024-05-19 01:11:02 INFO main - checkSyncStateSetPeriod=5000
+2024-05-19 01:11:02 INFO main - syncControllerMetadataPeriod=10000
+2024-05-19 01:11:02 INFO main - controllerHeartBeatTimeoutMills=10000
+2024-05-19 01:11:02 INFO main - validateSystemTopicWhenUpdateTopic=true
+2024-05-19 01:11:02 INFO main - brokerElectionPriority=2147483647
+2024-05-19 01:11:02 INFO main - metricsExporterType=DISABLE
+2024-05-19 01:11:02 INFO main - metricsGrpcExporterTarget=
+2024-05-19 01:11:02 INFO main - metricsGrpcExporterHeader=
+2024-05-19 01:11:02 INFO main - metricGrpcExporterTimeOutInMills=3000
+2024-05-19 01:11:02 INFO main - metricGrpcExporterIntervalInMills=60000
+2024-05-19 01:11:02 INFO main - metricsPromExporterPort=5557
+2024-05-19 01:11:02 INFO main - metricsPromExporterHost=
+2024-05-19 01:11:02 INFO main - metricsLabel=
+2024-05-19 01:11:02 INFO main - metricsInDelta=false
+2024-05-19 01:11:02 INFO main - channelExpiredTimeout=120000
+2024-05-19 01:11:02 INFO main - subscriptionExpiredTimeout=600000
+2024-05-19 01:11:02 INFO main - estimateAccumulation=true
+2024-05-19 01:11:02 INFO main - bindAddress=0.0.0.0
+2024-05-19 01:11:02 INFO main - listenPort=10911
+2024-05-19 01:11:02 INFO main - serverWorkerThreads=8
+2024-05-19 01:11:02 INFO main - serverCallbackExecutorThreads=0
+2024-05-19 01:11:02 INFO main - serverSelectorThreads=3
+2024-05-19 01:11:02 INFO main - serverOnewaySemaphoreValue=256
+2024-05-19 01:11:02 INFO main - serverAsyncSemaphoreValue=64
+2024-05-19 01:11:02 INFO main - serverChannelMaxIdleTimeSeconds=120
+2024-05-19 01:11:02 INFO main - serverSocketSndBufSize=0
+2024-05-19 01:11:02 INFO main - serverSocketRcvBufSize=0
+2024-05-19 01:11:02 INFO main - writeBufferHighWaterMark=0
+2024-05-19 01:11:02 INFO main - writeBufferLowWaterMark=0
+2024-05-19 01:11:02 INFO main - serverSocketBacklog=1024
+2024-05-19 01:11:02 INFO main - serverPooledByteBufAllocatorEnable=true
+2024-05-19 01:11:02 INFO main - useEpollNativeSelector=false
+2024-05-19 01:11:02 INFO main - clientWorkerThreads=4
+2024-05-19 01:11:02 INFO main - clientCallbackExecutorThreads=8
+2024-05-19 01:11:02 INFO main - clientOnewaySemaphoreValue=65535
+2024-05-19 01:11:02 INFO main - clientAsyncSemaphoreValue=65535
+2024-05-19 01:11:02 INFO main - connectTimeoutMillis=3000
+2024-05-19 01:11:02 INFO main - channelNotActiveInterval=60000
+2024-05-19 01:11:02 INFO main - clientChannelMaxIdleTimeSeconds=120
+2024-05-19 01:11:02 INFO main - clientSocketSndBufSize=0
+2024-05-19 01:11:02 INFO main - clientSocketRcvBufSize=0
+2024-05-19 01:11:02 INFO main - clientPooledByteBufAllocatorEnable=false
+2024-05-19 01:11:02 INFO main - clientCloseSocketIfTimeout=true
+2024-05-19 01:11:02 INFO main - useTLS=false
+2024-05-19 01:11:02 INFO main - socksProxyConfig={}
+2024-05-19 01:11:02 INFO main - writeBufferHighWaterMark=0
+2024-05-19 01:11:02 INFO main - writeBufferLowWaterMark=0
+2024-05-19 01:11:02 INFO main - disableCallbackExecutor=false
+2024-05-19 01:11:02 INFO main - disableNettyWorkerGroup=false
+2024-05-19 01:11:02 INFO main - storePathRootDir=/home/app/data/rocketmq/store
+2024-05-19 01:11:02 INFO main - storePathCommitLog=
+2024-05-19 01:11:02 INFO main - storePathDLedgerCommitLog=
+2024-05-19 01:11:02 INFO main - storePathEpochFile=/home/app/store/epochFileCheckpoint
+2024-05-19 01:11:02 INFO main - readOnlyCommitLogStorePaths=
+2024-05-19 01:11:02 INFO main - mappedFileSizeCommitLog=1073741824
+2024-05-19 01:11:02 INFO main - compactionMappedFileSize=104857600
+2024-05-19 01:11:02 INFO main - compactionCqMappedFileSize=10485760
+2024-05-19 01:11:02 INFO main - compactionScheduleInternal=900000
+2024-05-19 01:11:02 INFO main - maxOffsetMapSize=104857600
+2024-05-19 01:11:02 INFO main - compactionThreadNum=0
+2024-05-19 01:11:02 INFO main - enableCompaction=true
+2024-05-19 01:11:02 INFO main - mappedFileSizeTimerLog=104857600
+2024-05-19 01:11:02 INFO main - timerPrecisionMs=1000
+2024-05-19 01:11:02 INFO main - timerRollWindowSlot=172800
+2024-05-19 01:11:02 INFO main - timerFlushIntervalMs=1000
+2024-05-19 01:11:02 INFO main - timerGetMessageThreadNum=3
+2024-05-19 01:11:02 INFO main - timerPutMessageThreadNum=3
+2024-05-19 01:11:02 INFO main - timerEnableDisruptor=false
+2024-05-19 01:11:02 INFO main - timerEnableCheckMetrics=true
+2024-05-19 01:11:02 INFO main - timerInterceptDelayLevel=false
+2024-05-19 01:11:02 INFO main - timerMaxDelaySec=259200
+2024-05-19 01:11:02 INFO main - wakeFlushWhenPutMessage=false
+2024-05-19 01:11:02 INFO main - enableCleanExpiredOffset=false
+2024-05-19 01:11:02 INFO main - maxAsyncPutMessageRequests=5000
+2024-05-19 01:11:02 INFO main - pullBatchMaxMessageCount=160
+2024-05-19 01:11:02 INFO main - totalReplicas=1
+2024-05-19 01:11:02 INFO main - inSyncReplicas=1
+2024-05-19 01:11:02 INFO main - minInSyncReplicas=1
+2024-05-19 01:11:02 INFO main - allAckInSyncStateSet=false
+2024-05-19 01:11:02 INFO main - enableAutoInSyncReplicas=false
+2024-05-19 01:11:02 INFO main - haFlowControlEnable=false
+2024-05-19 01:11:02 INFO main - maxHaTransferByteInSecond=104857600
+2024-05-19 01:11:02 INFO main - haMaxTimeSlaveNotCatchup=15000
+2024-05-19 01:11:02 INFO main - syncMasterFlushOffsetWhenStartup=false
+2024-05-19 01:11:02 INFO main - maxChecksumRange=1073741824
+2024-05-19 01:11:02 INFO main - replicasPerDiskPartition=1
+2024-05-19 01:11:02 INFO main - logicalDiskSpaceCleanForciblyThreshold=0.8
+2024-05-19 01:11:02 INFO main - maxSlaveResendLength=268435456
+2024-05-19 01:11:02 INFO main - syncFromLastFile=false
+2024-05-19 01:11:02 INFO main - asyncLearner=false
+2024-05-19 01:11:02 INFO main - maxConsumeQueueScan=20000
+2024-05-19 01:11:02 INFO main - sampleCountThreshold=5000
+2024-05-19 01:11:02 INFO main - enableBuildConsumeQueueConcurrently=false
+2024-05-19 01:11:02 INFO main - batchDispatchRequestThreadPoolNums=16
+2024-05-19 01:11:03 INFO main - Replace, key: listenPort, value: 6888 -> 10911
+2024-05-19 01:11:03 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.store.ha.HAService] ...
+2024-05-19 01:11:03 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.store.ha.HAService] found.
+2024-05-19 01:11:03 INFO main - Set user specified name server address: localhost:9876
+2024-05-19 01:11:03 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService] ...
+2024-05-19 01:11:03 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.broker.transaction.TransactionalMessageService] found.
+2024-05-19 01:11:03 INFO main - Try to start service thread:TransactionalOpBatchService started:false lastThread:null
+2024-05-19 01:11:03 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2024-05-19 01:11:03 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener] ...
+2024-05-19 01:11:03 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener] found.
+2024-05-19 01:11:03 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2024-05-19 01:11:03 INFO main - The broker dose not enable acl
+2024-05-19 01:11:03 INFO main - Looking for a resource file of name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] ...
+2024-05-19 01:11:03 WARN main - No resource file with name [META-INF/service/org.apache.rocketmq.remoting.RPCHook] found.
+2024-05-19 01:11:03 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:FlushDiskWatcher started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:CompactionService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:DefaultAcceptSocketService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:HAConnectionStateNotificationService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:org.apache.rocketmq.store.util.PerfCounter$Ticks started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerEnqueueGetService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerEnqueuePutService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeueWarmService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeueGetService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeueGetMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerDequeuePutMessageService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TimerFlushService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:NettyEventExecutor started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopLongPollingService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopBufferMergeService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:QueueLockManager started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_0 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_1 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_2 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_3 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_4 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_5 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_6 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:PopReviveService_7 started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:TopicQueueMappingCleanService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2024-05-19 01:11:03 INFO TopicQueueMappingCleanService - Start topic queue mapping clean service thread!
+2024-05-19 01:11:03 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2024-05-19 01:11:03 INFO FileWatchService - FileWatchService service started
+2024-05-19 01:11:03 INFO PullRequestHoldService - PullRequestHoldService service started
+2024-05-19 01:11:03 INFO main - Try to start service thread:BroadcastOffsetManager started:false lastThread:null
+2024-05-19 01:11:03 INFO main - ScheduleServiceStatus changed to true
+2024-05-19 01:11:03 INFO main - TransactionCheckService status changed to true
+2024-05-19 01:11:03 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2024-05-19 01:11:03 INFO main - Set PopReviveService Status to true
+2024-05-19 01:11:04 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:11:04 INFO main - The broker[broker-a, 127.0.0.1:10911] boot success. serializeType=JSON and name server is localhost:9876
+2024-05-19 01:11:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:11:14 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:11:44 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:12:01 INFO HeartbeatThread_1 - new producer connected, group: CLIENT_INNER_PRODUCER channel: ClientChannelInfo [channel=[id: 0xc6d15e75, L:/127.0.0.1:10911 - R:/127.0.0.1:47002], clientId=172.19.0.2@1716052290028, language=JAVA, version=393, lastUpdateTimestamp=1716052321310]
+2024-05-19 01:12:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:12:14 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:12:44 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:13:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:13:14 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:13:44 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:14:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:14:14 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:14:44 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:15:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:15:14 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:15:44 INFO brokerOutApi_thread_3 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:16:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:16:14 INFO brokerOutApi_thread_4 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:16:44 INFO brokerOutApi_thread_1 - Registering current broker to name server completed. TargetHost=localhost:9876
+2024-05-19 01:17:13 INFO BrokerControllerScheduledThread1 - Dispatch task fall behind commit log 0bytes
+2024-05-19 01:17:14 INFO brokerOutApi_thread_2 - Registering current broker to name server completed. TargetHost=localhost:9876

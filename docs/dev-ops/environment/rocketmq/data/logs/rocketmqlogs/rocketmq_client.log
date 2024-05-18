@@ -1,0 +1,73 @@
+2024-05-19 01:11:30,231 INFO RocketmqClient - user specified name server address: rocketmq:9876
+2024-05-19 01:11:30,224 INFO RocketmqRemoting - name server address updated. NEW : [rocketmq:9876] , OLD: null
+2024-05-19 01:11:30,254 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:172.19.0.2@1716052290028, ClientConfig:ClientConfig [namesrvAddr=rocketmq:9876, clientIP=172.19.0.2, instanceName=1716052290028, clientCallbackExecutorThreads=8, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, pullTimeDelayMillsWhenException=1000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA, namespace=null], ClientVersion:V4_9_0, SerializerType:JSON
+2024-05-19 01:11:30,254 INFO RocketmqClient - Created new MQClientInstance for clientId:[172.19.0.2@1716052290028]
+2024-05-19 01:11:30,268 INFO RocketmqClient - PullMessageService service started
+2024-05-19 01:11:30,270 INFO RocketmqClient - RebalanceService service started
+2024-05-19 01:11:30,272 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2024-05-19 01:11:30,272 INFO RocketmqClient - the client factory [172.19.0.2@1716052290028] start OK
+2024-05-19 01:11:30,272 INFO RocketmqClient - the adminExt [admin_ext_group] start OK
+2024-05-19 01:11:30,278 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: rocketmq:9876. namesrvIndex = 922
+2024-05-19 01:11:33,291 WARN RocketmqRemoting - getAndCreateNameserverChannel: try to lock name server, but timeout, 3000ms
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-19 01:11:35,330 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-19 01:11:35,334 INFO RocketmqRemoting - createChannel: begin to connect remote host[rocketmq:9876] asynchronously
+2024-05-19 01:11:35,337 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2024-05-19 01:11:35,337 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2024-05-19 01:11:35,342 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => ocketmq/172.19.0.2:9876
+2024-05-19 01:11:35,344 INFO RocketmqRemoting - createChannel: connect remote host[rocketmq:9876] success, DefaultChannelPromise@6bd42be3(success)
+2024-05-19 01:11:35,344 WARN RocketmqRemoting - invokeSync: wait response timeout exception, the channel[null]
+2024-05-19 01:11:35,344 ERROR RocketmqClient - updateTopicRouteInfoFromNameServer Exception
+org.apache.rocketmq.remoting.exception.RemotingTimeoutException: invokeSync call timeout
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:375)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1355)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:622)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:509)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:358)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance$3.run(MQClientInstance.java:275)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:855)
+
+2024-05-19 01:11:35,344 ERROR RocketmqClient - ScheduledTask updateTopicRouteInfoFromNameServer exception
+java.lang.IllegalStateException: org.apache.rocketmq.remoting.exception.RemotingTimeoutException: invokeSync call timeout
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:679)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:509)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:358)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance$3.run(MQClientInstance.java:275)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:855)
+Caused by: org.apache.rocketmq.remoting.exception.RemotingTimeoutException: invokeSync call timeout
+	at org.apache.rocketmq.remoting.netty.NettyRemotingClient.invokeSync(NettyRemotingClient.java:375)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1365)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.getTopicRouteInfoFromNameServer(MQClientAPIImpl.java:1355)
+	at org.apache.rocketmq.client.impl.factory.MQClientInstance.updateTopicRouteInfoFromNameServer(MQClientInstance.java:622)
+	... 10 more
+
+2024-05-19 01:11:50,841 DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ccec086
+2024-05-19 01:11:50,841 DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ccec086
+2024-05-19 01:12:00,021 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:10909] asynchronously
+2024-05-19 01:12:00,022 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:10909
+2024-05-19 01:12:00,022 INFO RocketmqRemoting - createChannel: connect remote host[127.0.0.1:10909] success, DefaultChannelPromise@a93edaa(success)
+2024-05-19 01:12:00,313 INFO RocketmqClient - the topic[TBW102] route info changed, old[null] ,new[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSysFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=127.0.0.1:10911}]], filterServerTable={}]]
+2024-05-19 01:12:00,314 INFO RocketmqClient - updateTopicPublishInfo prev is not null, TopicPublishInfo [orderTopic=false, messageQueueList=[], sendWhichQueue=ThreadLocalIndex{threadLocalIndex=null}, haveTopicRouterInfo=false]
+2024-05-19 01:12:00,314 INFO RocketmqClient - topicRouteTable.put. Topic = TBW102, TopicRouteData[TopicRouteData [orderTopicConf=null, queueDatas=[QueueData [brokerName=broker-a, readQueueNums=8, writeQueueNums=8, perm=7, topicSysFlag=0]], brokerDatas=[BrokerData [brokerName=broker-a, brokerAddrs={0=127.0.0.1:10911}]], filterServerTable={}]]
+2024-05-19 01:12:01,287 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:10911] asynchronously
+2024-05-19 01:12:01,288 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:10911
+2024-05-19 01:12:01,290 INFO RocketmqRemoting - createChannel: connect remote host[127.0.0.1:10911] success, DefaultChannelPromise@1e04f15f(success)
+2024-05-19 01:12:01,320 INFO RocketmqClient - send heart beat to broker[broker-a 0 127.0.0.1:10911] success
+2024-05-19 01:12:01,320 INFO RocketmqClient - HeartbeatData [clientID=172.19.0.2@1716052290028, producerDataSet=[ProducerData [groupName=CLIENT_INNER_PRODUCER]], consumerDataSet=[]]
